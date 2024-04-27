@@ -75,7 +75,7 @@ button:hover {
 ul {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 li {
