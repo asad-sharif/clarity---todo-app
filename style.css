@@ -5,10 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monsterrat, sans-serif;
+    user-select: none;
+
 }
 
 :root {
-    --primary-bg-color: #F6F6E9;
+    --primary-bg-color: #f6f6e9;
     --secondary-bg-color: #291B25;
     --accent-color: #ED5B2D;
 }
@@ -19,7 +21,7 @@ body {
 }
 
 .container {
-    max-width: 320px;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +32,7 @@ body {
 }
 
 img {
-    width: 45%;
+    width: 60%;
 }
 
 input {
@@ -88,7 +90,6 @@ li {
     text-align: center;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
-    user-select: none;
     cursor: pointer;
 
 }
