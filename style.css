@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,80..900;1,80..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monsterrat, sans-serif;
+    font-family: sans-serif;
     user-select: none;
 
 }
@@ -90,7 +89,6 @@ li {
     text-align: center;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
-    cursor: pointer;
 
 }
 
