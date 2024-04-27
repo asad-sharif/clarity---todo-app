@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,80..900;1,80..900&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,88 @@
     font-family: monsterrat, sans-serif;
 }
 
-body{
-    background-color: #28282B;
+:root {
+    --primary-bg-color: #F6F6E9;
+    --secondary-bg-color: #291B25;
+    --accent-color: #ED5B2D;
+}
+
+body {
+    background-color: var(--primary-bg-color);
     color: white;
 }
+
+.container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    perspective: 500px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+img {
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    /* margin: .5rem 0; */
+}
+
+button {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    /* margin: .5rem 0; */
+}
+
+button:hover {
+    /* transform: scale(1.05); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.task-container {
+    color: black;
+    text-align: left;
+    align-self: self-start;
+    margin-top: 1rem;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    color: black; /* Text color */
+    padding: .8rem 1rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    flex: 1 1 auto;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+
+}
+
+
